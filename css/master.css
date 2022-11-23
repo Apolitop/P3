@@ -1,0 +1,77 @@
+.Portada_banner {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/distintos.jpg");
+}
+
+.Portada_sombra {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+  background-color: rgba(235, 211, 211, 0.6);
+  color: #633974;
+  margin: auto;
+}
+
+.Portada_sombra hr {
+  border-top: 5px solid #E5E8E8;
+}
+
+.Portada_sombra h1 {
+  font-size: 4vw;
+  margin-bottom: 10px;
+}
+
+.Portada_sombra p {
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+
+.seccion1{
+  padding: 4.5%;
+  color: white;
+  background-color: #9785ea;
+}
+
+.seccion2A{
+  background-color: #ec790c;
+  color: #fff;
+  padding: 2%;
+
+}
+
+.seccion2B{
+  background-color: #f4bc24;
+  color: #fff;
+  padding: 2%;
+
+}
+
+.seccion3{
+  padding: 4.5%;
+  color: white;
+  background-color: #1AC4CF;
+}
+
+.seccion3A{
+  padding: 4.5%;
+  color: white;
+  background-color: #1A98CF;
+}
+
+.footer{
+  background-color: #6c30b2;
+  padding: 3%;
+  color: #fff;
+  margin-top: 1px;
+
+}
